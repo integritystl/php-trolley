@@ -1,0 +1,20 @@
+{
+    "name": "integrity/trolley",
+    "description": "PHP HTTP Client",
+    "version": "0.0.1",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6",
+        "fakerphp/faker": "^1.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Integrity\\Trolley\\": "src/",
+            "Integrity\\Trolley\\Tests\\": "tests/unit"
+        }
+    }
+}
